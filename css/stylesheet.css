@@ -1,0 +1,117 @@
+body {
+    margin-top: 95px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 21px;
+}
+
+.intro-fix {
+  padding-top: 50px;
+  padding-bottom: 40px; 
+   
+}
+
+.text-color {
+    color:white;
+}
+
+
+.navbar {
+    box-shadow: 2px 2px 7px #3BABDF;
+    opacity: 0.9;
+    background: #fff;  
+}
+
+
+.nav-item {
+    font-size: 1.4 rem;
+    padding-right: 15px; 
+  
+}
+
+
+#intro {
+    position: relative;
+    background-image: url('https://s15.postimg.cc/qinyrx7e3/picture1.jpg');
+    background-size:cover;
+    background-attachment: fixed;
+    min-height: 650px; 
+    
+}
+
+
+.right-box {
+    background-color: #3BABDF;
+    color: white;
+} 
+
+
+.info-header {
+    width:100%;
+    margin:auto;
+}
+
+
+.custom-adjustments {
+    font-size: 80px;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.card:hover {
+    background: #3BABDF; 
+    color: #fff;
+    
+}
+
+
+.service-cards {
+  height: 100%;
+    
+}
+
+.service-cards-buttons {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+
+
+#main-footer {
+    width: 100%; 
+    height: 20px;
+
+}
+
+@media(max-width:576px) { 
+    nav .container {
+        width: 100%;
+    }
+ 
+}
+
+
+@media(max-width:480px) {
+    .logo {
+        width: 40px;
+        height: 40px;
+    }
+    
+    i {font-size: 18px;}
+    
+    .intro-heading {
+        font-size: 30px; 
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    
+    .video-res{
+        width: 380px;
+    }
+    
+    body {
+       margin-top: 80px;    
+    }
+    
+}
